@@ -1,5 +1,11 @@
 from random import choice
 
+print('''\t\t\t\t\tWELCOME IN MY GAME
+    \t Computer choose a number between 1 and 256
+    \t\tCan you guess which one he choose?
+    \t\t\t\t\tGOOD LUCK
+''')
+
 while True:
     looking_number = choice(range(1, 257))
     finded_number = False
