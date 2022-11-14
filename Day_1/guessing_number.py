@@ -15,6 +15,7 @@ while True:
             players_number = int(input("Choose your number: "))
         except ValueError:
             print("Error!!!! Use integer number.")
+            print()
             continue
 
         if looking_number > players_number:
