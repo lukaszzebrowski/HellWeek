@@ -1,7 +1,7 @@
 from random import choice
 
 while True:
-    looking_number = choice(range(1, 257)
+    looking_number = choice(range(1, 257))
     finded_number = False
 
     while not finded_number:
