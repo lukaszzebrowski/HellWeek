@@ -30,7 +30,7 @@ while True:
 
     for wyraz in text.split():
         if wyraz.startswith(selected_letter.lower()) or wyraz.startswith(selected_letter.upper()):
-            print(wyraz, '\n')
+            print(wyraz.replace('.', ''))
             word_list.append(wyraz)
 
     if len(word_list) == 0:

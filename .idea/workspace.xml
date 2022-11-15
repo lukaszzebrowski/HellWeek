@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day_2/content.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day_2/textual_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_2/textual_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_2/textual_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1668428830331" duration="1226000" />
       <workItem from="1668523100638" duration="5000" />
       <workItem from="1668523357867" duration="1114000" />
-      <workItem from="1668527674737" duration="3532000" />
+      <workItem from="1668527674737" duration="3659000" />
+      <workItem from="1668532672124" duration="160000" />
     </task>
     <servers />
   </component>
@@ -146,6 +145,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HellWeek$guessing_number.coverage" NAME="guessing_number Coverage Results" MODIFIED="1668410948924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_1" />
-    <SUITE FILE_PATH="coverage/HellWeek$textual_analysis.coverage" NAME="textual_analysis Coverage Results" MODIFIED="1668532508175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_2" />
+    <SUITE FILE_PATH="coverage/HellWeek$textual_analysis.coverage" NAME="textual_analysis Coverage Results" MODIFIED="1668532814888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_2" />
   </component>
 </project>
