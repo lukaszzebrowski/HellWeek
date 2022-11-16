@@ -60,26 +60,71 @@ score_dict['Edek'] = edek
 for key in score_dict.keys():
     contest_result[key] = 0
 
-for i in range(len(darek)):
-    if result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Darek':
-        contest_result['Darek'] += 3
-
-    elif result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Zdzisiek':
-        contest_result['Zdzisiek'] += 3
-
-    elif result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Edek':
-        contest_result['Edek'] += 3
+print('Welcome in the Dart game!!!!')
+print('Rules:\n'
+      '1. Winner od the round +3 points\n'
+      '2. One smalest score -1 point\n'
+      '3. Other cases 0 point\n')
 
 for i in range(len(darek)):
-    if result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Darek':
-        contest_result['Darek'] -= 1
+    print(f'Runda {round_count}\n')
+    round_count += 1
 
-    elif result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Zdzisiek':
-        contest_result['Zdzisiek'] -= 1
+    while True:
 
-    elif result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i], score_dict['Edek'][i]) == 'Edek':
-        contest_result['Edek'] -= 1
+        print(f"Darek scored: {score_dict['Darek'][i]}, "
+              f"Zdzisiek scored {score_dict['Zdzisiek'][i]}, "
+              f"Edek scored: {score_dict['Edek'][i]}\n")
 
+        if result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                              score_dict['Edek'][i]) == 'Darek':
+            contest_result['Darek'] += 3
 
-print(contest_result)
+            if result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                  score_dict['Edek'][i]) == 'Zdzisiek':
+                contest_result['Zdzisiek'] -= 1
+                print(contest_result, '\n')
+                break
+
+            elif result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                    score_dict['Edek'][i]) == 'Edek':
+                contest_result['Edek'] -= 1
+                print(contest_result, '\n')
+                break
+
+        elif result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                score_dict['Edek'][i]) == 'Zdzisiek':
+            contest_result['Zdzisiek'] += 3
+
+            if result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                  score_dict['Edek'][i]) == 'Darek':
+                contest_result['Darek'] -= 1
+                print(contest_result, '\n')
+                break
+
+            elif result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                    score_dict['Edek'][i]) == 'Edek':
+                contest_result['Edek'] -= 1
+                print(contest_result, '\n')
+                break
+
+        elif result_compare_max(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                score_dict['Edek'][i]) == 'Edek':
+            contest_result['Edek'] += 3
+
+            if result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                  score_dict['Edek'][i]) == 'Zdzisiek':
+                contest_result['Zdzisiek'] -= 1
+                print(contest_result, '\n')
+                break
+
+            elif result_compare_min(score_dict['Darek'][i], score_dict['Zdzisiek'][i],
+                                    score_dict['Edek'][i]) == 'Darek':
+                contest_result['Darek'] -= 1
+                print(contest_result, '\n')
+                break
+
+        print('Draw!!!!\n')
+        break
+
 
