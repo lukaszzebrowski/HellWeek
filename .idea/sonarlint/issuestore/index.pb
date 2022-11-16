@@ -5,3 +5,5 @@ A
 Day_2/content.txt,2\f\2f00f8d87c7612da1df8b938024089b7ad599400
 I
 Day_2/textual_analysis.py,3\7\37591bc8053d0008fc86ee411e6e76b785cae3bd
+@
+Day_3/scores.csv,b\9\b974f89d578d64fbb91aecb0ef247c0f752ff202
