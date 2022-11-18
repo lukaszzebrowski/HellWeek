@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day_5/range_float.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_5/range_float.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_5/range_float.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,9 @@
       <module name="HellWeek" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_5" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -209,6 +212,14 @@
       <workItem from="1668713087628" duration="121000" />
       <workItem from="1668752111060" duration="1648000" />
       <workItem from="1668755627282" duration="1503000" />
+      <workItem from="1668757660230" duration="168000" />
+      <workItem from="1668757994439" duration="46000" />
+      <workItem from="1668762638947" duration="3000" />
+      <workItem from="1668762816568" duration="66000" />
+      <workItem from="1668763564147" duration="34000" />
+      <workItem from="1668764063885" duration="4000" />
+      <workItem from="1668764914247" duration="78000" />
+      <workItem from="1668787910960" duration="30000" />
     </task>
     <servers />
   </component>

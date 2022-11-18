@@ -16,4 +16,3 @@ def range_float(start, stop=None, step=None):
             break
         yield temp
         count += 1
-
