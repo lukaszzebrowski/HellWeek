@@ -17,3 +17,7 @@ D
 Day_5/range_float.py,e\4\e4494081609fcf54aa3d1cd6ada56cec6decb2b8
 H
 Day_6/magic_square_2.txt,a\9\a91ae73a8e063379b3391befc64d6e73381be5dd
+E
+Day_6/magic_square.py,1\8\18eb21043a9576b993ed6ee93b2c9963ddca19c8
+H
+Day_6/magic_square_1.txt,a\6\a6f22b0c68e79c7a44559cf8039504f5ea07ea9b
