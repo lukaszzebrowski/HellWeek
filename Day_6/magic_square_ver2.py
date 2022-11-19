@@ -10,6 +10,7 @@ def magic_square_sum(list):
     else:
         return False
 
+square_size = 3
 
 file_with_square = open('magic_square_1.txt', 'r', encoding="utf-8")
 numbers_square = file_with_square.read()
@@ -21,4 +22,6 @@ if magic_square_sum(numbers_list) == True:
           f"each column,\nand both main diagonals ar the same and and is equal to: {sum(numbers_list[0:3:1])}")
 else:
     print("I'm sorry it is not magic square")
+
+
 
