@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="" />
+    <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day_7/figures.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_7/figures_area.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c34dc9fb7507a1480ae3dc2986fb7cecd5b116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +63,7 @@
       <recent name="C:\Users\lukze\Desktop\Kolo_Python\HellWeek\Day_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.magic_square_ver2">
+  <component name="RunManager" selected="Python.figures_area">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="HellWeek" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +108,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="figures_area" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HellWeek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_7/figures_area.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="magic_square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HellWeek" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +153,9 @@
       <module name="HellWeek" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_6" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -187,42 +215,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HellWeek" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_4/reverse_digits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.figures_area" />
       <item itemvalue="Python.magic_square_ver2" />
       <item itemvalue="Python.magic_square" />
       <item itemvalue="Python.range_float" />
-      <item itemvalue="Python.reverse_digits" />
       <item itemvalue="Python.dart_scores" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.figures_area" />
         <item itemvalue="Python.magic_square_ver2" />
         <item itemvalue="Python.magic_square" />
         <item itemvalue="Python.range_float" />
         <item itemvalue="Python.range_float" />
-        <item itemvalue="Python.reverse_digits" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +271,8 @@
       <workItem from="1668857324546" duration="1424000" />
       <workItem from="1668863200787" duration="7206000" />
       <workItem from="1668871559034" duration="864000" />
+      <workItem from="1668945101777" duration="169000" />
+      <workItem from="1668945433602" duration="2378000" />
     </task>
     <servers />
   </component>

@@ -12,8 +12,6 @@ G
 H
 Day_1/guessing_number.py,3\9\39e16875b75c8d78c7fd00bbb1f73bbc9c3b5339
 D
-Day_3/dart_scores.py,9\7\97c34dc9fb7507a1480ae3dc2986fb7cecd5b116
-D
 Day_5/range_float.py,e\4\e4494081609fcf54aa3d1cd6ada56cec6decb2b8
 H
 Day_6/magic_square_2.txt,a\9\a91ae73a8e063379b3391befc64d6e73381be5dd
