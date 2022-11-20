@@ -22,7 +22,7 @@ def figures(dict):
             medium_field += circle(dict[key])
         else:
             return f'We cannot calculate the area of this figure {key}'
-    print(f'Medium field of all figures = {round(medium_field / count, 2)}')
+    print(f'Average field of all figures = {round(medium_field / count, 2)}')
 
 
 def square(list):
