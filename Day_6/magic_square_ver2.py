@@ -33,11 +33,11 @@ def diagonal(matrix):
     return True if temp == diag_sum else False
 
 
-def unique_value(matrix):
-    first_value = matrix[0][0]
-    for i in range(1, len(matrix)):
-        for j in range(len(matrix)):
-            if first_value == matrix[i][j]:
+def unique_value(list):
+    first_value = list[0][0]
+    for i in range(1, len(list)):
+        for j in range(len(list)):
+            if first_value == list[i][j]:
                 return "The numbers in the square are not unique "
     return "The numbers in the square are unique "
 
@@ -62,6 +62,6 @@ if row(magic_matrix) and column(magic_matrix) and diagonal(magic_matrix):
           f"each column,\nand both main diagonals ar the same and and is equal to: {sum(magic_matrix[0])}\n"
           f"{unique_value(magic_matrix)}")
 else:
-    print(f"I'm sorry it is not magic square\n{unique_value(magic_matrix)}")
+    print(f"I'm sorry it is not magic square\n{unique_value(numbers_list)}")
 
 

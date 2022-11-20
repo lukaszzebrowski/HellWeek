@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_6/magic_square_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_6/magic_square_ver2.py" afterDir="false" />
-    </list>
+    <list default="true" id="bfedca75-b5a2-4fc9-9893-084ffe904cd9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +264,7 @@
       <workItem from="1668850835566" duration="4017000" />
       <workItem from="1668857324546" duration="1424000" />
       <workItem from="1668863200787" duration="7206000" />
-      <workItem from="1668871559034" duration="737000" />
+      <workItem from="1668871559034" duration="864000" />
     </task>
     <servers />
   </component>
