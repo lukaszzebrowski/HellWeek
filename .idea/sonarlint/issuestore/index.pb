@@ -9,8 +9,6 @@ F
 Day_4/bool_function.py,b\a\bacb6d999cb235fad096008b1780fbd2f95d77e1
 G
 Day_4/reverse_digits.py,3\e\3ed1654c5b1936ad600e7545737d27e32b745ff2
-H
-Day_1/guessing_number.py,3\9\39e16875b75c8d78c7fd00bbb1f73bbc9c3b5339
 D
 Day_5/range_float.py,e\4\e4494081609fcf54aa3d1cd6ada56cec6decb2b8
 H
@@ -23,3 +21,7 @@ D
 Day_3/dart_scores.py,9\7\97c34dc9fb7507a1480ae3dc2986fb7cecd5b116
 J
 Day_6/magic_square_ver2.py,0\0\00c07b455a7bb111e483992e5c3fd3c3a008171a
+E
+Day_7/figures_area.py,2\1\21a74753ac19de06114ff0518af95185700c20ba
+A
+Day_7/figures.txt,4\9\4903534898eca534a3e9603806a6f2daa44ff80e
