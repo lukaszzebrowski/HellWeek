@@ -1,14 +1,32 @@
+import math
+
 def figures(dict):
+    count = 0
+    medium_field = 0
     for key in dict:
         if key == 'kwadrat':
-            print(square(dict[key]))
+            print(f'Square area = {round(square(dict[key]), 2)}')
+            count += 1
+            medium_field += square(dict[key])
         elif key == 'trojkat':
-            print(triangle(dict[key]))
+            print(f'Triangle area = {round(triangle(dict[key]), 2)}')
+            count += 1
+            medium_field += triangle(dict[key])
+        elif key == 'trapez':
+            print(f'Trapeze area = {round(trapeze(dict[key]), 2)}')
+            count += 1
+            medium_field += trapeze(dict[key])
+        elif key == 'kolo':
+            print(f'Cyrcle area = {round(circle(dict[key]), 2)}')
+            count += 1
+            medium_field += circle(dict[key])
+        else:
+            return f'We cannot calculate the area of this figure {key}'
+    print(f'Medium field of all figures = {round(medium_field / count, 2)}')
 
 
 def square(list):
-    for i in range(len(list)):
-        return list[i] ** 2
+    return list[0] ** 2
 
 
 def triangle(list):
@@ -16,12 +34,12 @@ def triangle(list):
 
 
 
-def trapeze(a, b, h):
-    pass
+def trapeze(list):
+    return ((list[0] + list[1]) / 2) * list[2]
 
 
-def circle(r):
-    pass
+def circle(list):
+    return round(math.pi * pow(list[0], 2), 2)
 
 
 file_with_data = open('figures.txt', 'r', encoding="utf-8")
@@ -38,11 +56,16 @@ for element in figures_list:
 figures_dict = {}
 
 for i in range(len(figures_with_value)):
-    figures_dict[figures_with_value[i][0]] = figures_with_value[i][1:]
+    figures_dict[figures_with_value[i][0]] = list(map(int, figures_with_value[i][1:]))
 
-for string in figures_dict:
-    figures_dict[string] = list(map(int, figures_dict[string]))
+print(figures(figures_dict))
 
-figures(figures_dict)
+
+
+
+
+
+
+
 
 

@@ -19,3 +19,7 @@ E
 Day_6/magic_square.py,1\8\18eb21043a9576b993ed6ee93b2c9963ddca19c8
 H
 Day_6/magic_square_1.txt,a\6\a6f22b0c68e79c7a44559cf8039504f5ea07ea9b
+D
+Day_3/dart_scores.py,9\7\97c34dc9fb7507a1480ae3dc2986fb7cecd5b116
+J
+Day_6/magic_square_ver2.py,0\0\00c07b455a7bb111e483992e5c3fd3c3a008171a
